@@ -81,3 +81,13 @@ ServiceMaps:
       isBulk: true
       timeStampField: $.createdTime
       jsonPath: $.NOCPriceBook
+
+  - topic: insert-opms-priceBookMaster
+    configKey: INDEX
+    indexes:
+    - name: pm-price-book-master-index-v1
+      type: priceBookMaster
+      id: $.priceBookId,$.tenantId,$.applicationType
+      isBulk: true
+      timeStampField: $.createdTime
+      jsonPath: $.NOCPriceBook
