@@ -102,16 +102,6 @@ ServiceMaps:
       timeStampField: $.lastModifiedTime
       jsonPath: $.RequestBody
 
-  - topic: ec-services-update-penalty-amount
-    configKey: INDEX
-    indexes:
-    - name: ec-services-challan-index-v1
-      type: challan
-      id: $.challanUuid
-      isBulk: false
-      timeStampField: $.lastModifiedTime
-      jsonPath: $.RequestBody
-
   - topic: ec-services-update-auction
     configKey: INDEX
     indexes:
