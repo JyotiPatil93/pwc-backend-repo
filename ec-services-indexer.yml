@@ -79,7 +79,7 @@ ServiceMaps:
       type:  challan
       id:  $.challanUuid
       isBulk: false
-      timeStampField: $.RequestBody.lastModifiedTime
+      timeStampField: $.lastModifiedTime
       jsonPath: $.RequestBody
 
   - topic: ec-services-create-vendor
