@@ -148,7 +148,7 @@ ServiceMaps:
     - name: ec-services-auction-index-v1
       type: auction-master
       id: $.auctionUuid, $.violationUuid, $.challanUuid, $.tenantId
-      isBulk: true
+      isBulk: false
       timeStampField: $.createdTime
       jsonPath: $.RequestBody
 
