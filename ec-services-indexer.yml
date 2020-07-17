@@ -47,7 +47,7 @@ ServiceMaps:
     indexes:
     - name: ec-services-store-index-v1
       type: store-item
-      id: $.storeItemUuid, $.documentUuid , $.tenantId
+      id: $.storeItemUuid, $.challanUuid , $.tenantId
       isBulk: true
       timeStampField: $.createdTime
       jsonPath: $.RequestBody.storeItemRegister
