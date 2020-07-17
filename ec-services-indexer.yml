@@ -68,7 +68,7 @@ ServiceMaps:
     - name: ec-services-challan-index-v1
       type:  challan
       id: $.violationUuid , $.challanUuid, $.tenantId
-      isBulk: true
+      isBulk: false
       timeStampField: $.createdTime
       jsonPath: $.RequestBody
 
