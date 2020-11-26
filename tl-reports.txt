@@ -1,1 +1,1 @@
-tl-services=https://raw.githubusercontent.com/cscl-git/rainmaker-customisation/master/configs/reports/configs/tl-reports.yml
+tl-services=https://raw.githubusercontent.com/extrapre/rainmaker-customisation/master/configs/reports/configs/tl-reports.yml
