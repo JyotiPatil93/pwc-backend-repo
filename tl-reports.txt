@@ -1,1 +1,1 @@
-tl-services=https://raw.githubusercontent.com/extrapre/rainmaker-customisation/master/configs/reports/configs/tl-reports.yml
+pm-services=https://raw.githubusercontent.com/extrapre/pwc-backend-repo/master/pm-reports.yml
